@@ -1,0 +1,44 @@
+.Seccion-CardsServicios{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-Asesoria{
+    display: flex;
+    padding: 40px 100px 40px 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.section-Asesoria p{
+font-family: var(--ff-text-p-legal);
+margin-top: 20px;
+font-weight: 500;
+text-align: justify;
+line-height: 1.7;
+font-size: 0.9rem;
+padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-Asesoria h2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-Asesoria h3{
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tamlinasesor{
+    padding-left: 10%;
+    padding-right: 10%;
+}

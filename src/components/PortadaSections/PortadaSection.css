@@ -1,0 +1,12 @@
+.section-title{
+    min-height: 60vh;
+    background-position: 0 0,50%;
+    background-size: auto,cover;
+    background-attachment: scroll,scroll;
+}
+
+.divCenterText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,13 +1,41 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: auto;
+  /* Esto activa el desplazamiento suave */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+:root {
+  /* VARIABLES WHITE */
+  --ff-textp: 'Roboto', sans-serif;
+  --ff-body: 'PT Sans', sans-serif;
+  --ff-nav-bar: 'Roboto',sans-serif;
+  --ff-title: 'Montserrat',sans-serif;
+  --ff-text-p-legal:'Montserrat Light', arial;
+  --ff-text-title2:'Libre Baskerville', serif;
+  --clr-color-nav-bar: rgb(255, 255, 255);
+
+  --clr-color-hover-text1: #679dd2;
+ 
+  --clr-color-hover-text2:rgb(53 198 218);
+  --clr-color-article-title:#336699;
+  --clr-color-title: #fff;
+  --clr-color-subtitle:#666;
+  --clr-color-background1:#f5f5f5;
+  --clr-color-text2:
+  --clr-color-sub:
+  
+
+  --tw-text-opacity: 1;
+
+}
+
+body{
+  font-family: var('Roboto', sans-serif);
 }

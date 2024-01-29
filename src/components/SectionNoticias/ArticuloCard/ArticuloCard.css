@@ -1,0 +1,57 @@
+
+
+.articuloCard-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: var(--ff-text-p-legal);
+    min-height: 1px;
+    font-size: 13px;
+    width: 30.33333333%;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #efefef;
+    border-radius: 8px;
+
+}
+
+.articuloCard-fecha-an{
+    font-size:13px;
+    font-family: var(--ff-title);
+    color: #666;
+    margin: 0 0 10px;
+}
+
+.articuloCard-title{
+    font-family: var(--ff-title);
+    color:var( --clr-color-article-title);
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+
+
+
+.articuloCard-texto{
+
+    font-family: 'Montserrat Light', arial;
+    margin: 0 0 10px;
+    font-size: 12px;
+
+}
+
+.link-articuloCard{
+    font-family: var(--ff-text-p-legal);
+    font-weight: 700;
+    color:#666;
+    text-decoration: none;
+
+
+}
+
+.link-articulo b{
+    display: flex;
+    justify-content: flex-end;
+}
+
+

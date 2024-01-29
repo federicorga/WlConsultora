@@ -1,0 +1,25 @@
+.nav-list{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-list li{
+    padding: 5px;
+}
+
+
+.nav-list a{
+    color: var(--clr-color-nav-bar);
+
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-list a:hover{
+   
+    color: var( --clr-color-hover-text1);
+}
+

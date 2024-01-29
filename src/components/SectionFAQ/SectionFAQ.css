@@ -1,0 +1,12 @@
+.SectionFAQLIST{
+    padding: 100px;
+}
+
+.Titleh2-FaQ-Section{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items:flex-start;
+}

@@ -1,0 +1,17 @@
+
+.Subtitle-h2{
+
+    font-family: var(--ff-title);
+    color: var(--clr-color-article-title);
+    font-size: 1.8rem;
+    line-height: 1.5;
+    
+}
+
+.Subtitle-h3{
+    font-size: 1rem;
+    text-align: left;
+    font-family: var(--ff-textp);
+    color: #336699;
+
+}
