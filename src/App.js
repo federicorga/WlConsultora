@@ -22,15 +22,19 @@ import RelacionesConsumo from './components/SectionAsesoria/RelacionesConsumo/Re
 import LeyContratoTrabajo from './components/SectionAsesoria/LeyContratoTrabajo/LeyContratoTrabajo';
 import DerechoLaboral from './components/SectionAsesoria/DerechoLaboral/DerechoLaboral';
 import RiesgoTrabajo from './components/SectionAsesoria/RiesgoTrabajo/RiesgoTrabajo';
+import ContratoSeguros from './components/SectionAsesoria/ContratoSeguros/ContratoSeguros';
+import ResponsabilidadPenal from './components/SectionAsesoria/ResponsabilidadPenal/ResponsabilidadPenal'
+import NormaISO9001 from './components/SectionAsesoria/NormasIso/NormaISO9001';
+import NormaISO45001 from './components/SectionAsesoria/NormasIso/NormaISO45001';
 
 //AREA DE GESTION
 import ConstitucionSocietaria from './components/SectionGestion/ConstitucionSocietaria/ConstitucionSocietaria';
 import ContratoLocObra from './components/SectionGestion/ContratoLocObra/ContratoLocObra';
 import ContratoLocServicios from './components/SectionGestion/ContratoLocServicios/ContratoLocServicios';
-import ContratoSeguros from './components/SectionGestion/ContratoSeguros/ContratoSeguros';
 import FondosComercio from './components/SectionGestion/FondoComercio/FondosComercio';
 import Habilitaciones from './components/SectionGestion/Habilitaciones/Habilitaciones';
 import LocacionInmobiliaria from './components/SectionGestion/LocacionInmobiliaria/LocacionInmobiliaria';
+
 
 function App() {
 
@@ -49,11 +53,15 @@ function App() {
     <Route path='/asesoria-legal/ley-contrato-de-trabajo' element={<LeyContratoTrabajo/>}/>
     <Route path='/asesoria-legal/derecho-laboral-colectivo' element={<DerechoLaboral/>}/>
     <Route path='/asesoria-legal/riesgo-de-trabajo' element={<RiesgoTrabajo/>}/>
+    <Route path='/asesoria-legal/responsabilidad-penal-empresaria' element={<ResponsabilidadPenal/>}/>
+    <Route path='/asesoria-legal/contratos-seguros' element={<ContratoSeguros/>}/>
+    <Route path='/asesoria-legal/normas-iso9001' element={<NormaISO9001/>}/>
+    <Route path='/asesoria-legal/normas-iso45001' element={<NormaISO45001/>}/>
+
 
     <Route path='/gestion/constitucion-societaria' element={<ConstitucionSocietaria/>}/>
     <Route path='/gestion/contratos-locacion-obra' element={<ContratoLocObra/>}/>
     <Route path='/gestion/contratos-locacion-servicios' element={<ContratoLocServicios/>}/>
-    <Route path='/gestion/contratos-seguros' element={<ContratoSeguros/>}/>
     <Route path='/gestion/fondos-comercio' element={<FondosComercio/>}/>
     <Route path='/gestion/habilitaciones' element={<Habilitaciones/>}/>
     <Route path='/gestion/locacion-inmobiliaria' element={<LocacionInmobiliaria/>}/>
@@ -61,7 +69,6 @@ function App() {
 
     <Route path='/gestion' element={<SectionGestion/>}/>
     <Route path='/miembros' element={<SectionMiembros/>}/>
-  
     <Route path='/faq' element={<SectionFAQ/>}/>
     <Route path='/contacto' element={<SectionContact/>}/>
     

@@ -1,4 +1,5 @@
-import Gestion from "../Gestion/Gestion";
+
+import Asesorias from "../Asesorias/Asesorias";
 
 function ContratoSeguros() {
   const textos = [
@@ -11,7 +12,7 @@ function ContratoSeguros() {
 
   return (
     <>
-      <Gestion titulo={"Contratos de Seguros"} textoServicio={textos}/>
+      <Asesorias titulo={"Contratos de Seguros"} textoServicio={textos}/>
     </>
   );
 

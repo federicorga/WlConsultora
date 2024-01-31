@@ -1,16 +1,21 @@
 import './DetailArticulo.css';
 import LineSepar from '../../ComponentesAccesorios/LineSepar/LineSepar';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { BuscarArticuloPorId } from '../../../assets/connectToJson';
-
-
+import Subtitleh2 from '../../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2';
 function DetailArticulo ({id})  {
   const [item, setArticulo] = useState([]);
+  
+  id = Number(useParams().id);
+
   useEffect(()=>{
     const fetchData = async () => {
       try {
-       return await BuscarArticuloPorId(id).then(prod => setArticulo(prod));
+       
+      await BuscarArticuloPorId(id).then(prod => setArticulo(prod));
+
+
        
       } catch (error) {
         console.error('Error al obtener el artículo:', error);
@@ -18,15 +23,18 @@ function DetailArticulo ({id})  {
     };
 
     fetchData();
-
   }, [id]); 
+
+  
   return (
     <>
       {item? (
         <div className='Articulo-detail-content'>
-          <h2>{item.tituloArt}</h2>
+          <Subtitleh2 text={item.tituloArt}/>
           <Link className='link-Noticias' to={`/noticias`}>Volver al Menu</Link>
           <LineSepar/>
+
+          <p>{item.fragmentoTexto}</p>
           
         </div>
       ) : (

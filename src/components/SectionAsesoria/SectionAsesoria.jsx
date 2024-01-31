@@ -38,6 +38,14 @@ const SectionAsesoria = () => {
     <CardServicios titulo={"Derecho Laboral Colectivo"} img="Asesoramiento/derecholaboralColetivo.jpg"/></Link>
     <Link className='link-articuloCard' to={`/asesoria-legal/riesgo-de-trabajo`} onClick={scrollToTop}>
     <CardServicios titulo={"Riesgos de Trabajo"} img="Asesoramiento/riesgoDeTrabajo.jpg"/></Link>
+    <Link className='link-articuloCard' to={`/asesoria-legal/contratos-seguros`} onClick={scrollToTop}>
+    <CardServicios titulo={"Contratos de Seguros"} img="Asesoramiento/contratoseguros.jpg"/></Link>
+    <Link className='link-articuloCard' to={`/asesoria-legal/responsabilidad-penal-empresaria`} onClick={scrollToTop}>
+    <CardServicios titulo={"Responsabilidad Penal Empresaria"} img="Asesoramiento/responsabilidadpenalempresarial.jpg"/></Link>
+    <Link className='link-articuloCard' to={`/asesoria-legal/normas-iso9001`} onClick={scrollToTop}>
+    <CardServicios titulo={"Normas ISO 9001"} img="Asesoramiento/normaiso9001.jpg"/></Link>
+    <Link className='link-articuloCard' to={`/asesoria-legal/normas-iso45001`} onClick={scrollToTop}>
+    <CardServicios titulo={"Normas ISO 45001"} img="Asesoramiento/normaiso45001.png"/></Link>
     </section>
     </>
   );

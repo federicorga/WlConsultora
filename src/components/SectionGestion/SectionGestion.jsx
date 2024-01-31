@@ -29,8 +29,7 @@ function SectionGestion() {
     <CardServicios titulo={"Contratos de Locacion de Servicios"} img="Gestion/contratoservicios.jpg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/contratos-locacion-obra`} onClick={scrollToTop}>
     <CardServicios titulo={"Contratos de Locacion de Obra"} img="Gestion/contratoobra.jpg"/></Link>
-    <Link className='link-articuloCard' to={`/gestion/contratos-seguros`} onClick={scrollToTop}>
-    <CardServicios titulo={"Contratos de Seguros"} img="Gestion/contratoseguros.jpg"/></Link>
+    
     </section>
     </>
    

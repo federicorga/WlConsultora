@@ -16,9 +16,8 @@ function SectionMiembros() {
      
       <section className='Seccion-Content-Miembros'>
       <div className='div-ContentAll-Miembros'>
-      <Member nombre={"ALLEN PATATANYAN"} titulo={"MANAGING PARTNER"} imgurl={"Allen.webp"}/>
-      <Member nombre={"LIANA KHACHATRYAN"} titulo={"SUPERVISING ATTORNEY"} imgurl={"Liana.webp"}/>
-      <Member nombre={"NEAMA RAHMANI"} titulo={"PRESIDENT"} imgurl={"Neama.webp"}/>
+      <Member nombre={"WILHELM LEIFERMANN"} titulo={"Abogado | Consultor"} imgurl={"Willy.jpeg"}/>
+
       </div>
       <ContactoForm/>
       </section>

@@ -5,7 +5,13 @@ const ArticuloList = ({listaArticulos}) => {
 
     return (
         <>
-            {listaArticulos.map(articulo => <ArticuloCard key={articulo.id} articulo = {articulo}/>)}
+            {listaArticulos.map(articulo => 
+            
+            
+            <ArticuloCard articulo = {articulo}/>
+           
+            )
+            }
         </>
     );
 }
