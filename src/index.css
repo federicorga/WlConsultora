@@ -41,5 +41,7 @@
 }
 
 body{
+  zoom: 90%;
   font-family: var('Roboto', sans-serif);
+  
 }
