@@ -20,15 +20,15 @@ function SectionGestion() {
     <Link className='link-articuloCard' to={`/gestion/constitucion-societaria`} onClick={scrollToTop}>
     <CardServicios titulo={"Constitucion Societaria"} img="Gestion/constitucionsocietaria.jpeg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/locacion-inmobiliaria`} onClick={scrollToTop}>
-    <CardServicios titulo={"Locacion Inmobiliaria"} img="Gestion/contratoinmobiliaria.jpg"/></Link>
+    <CardServicios titulo={"Locación Inmobiliaria"} img="Gestion/contratoinmobiliaria.jpg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/fondos-comercio`} onClick={scrollToTop}>
     <CardServicios titulo={"Fondos de Comercio"} img="Gestion/fondocomercio.webp"/></Link>
     <Link className='link-articuloCard' to={`/gestion/habilitaciones`} onClick={scrollToTop}>
     <CardServicios titulo={"Habilitaciones"} img="Gestion/habilitaciones.jpg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/contratos-locacion-servicios`} onClick={scrollToTop}>
-    <CardServicios titulo={"Contratos de Locacion de Servicios"} img="Gestion/contratoservicios.jpg"/></Link>
+    <CardServicios titulo={"Contratos de Locación de Servicios"} img="Gestion/contratoservicios.jpg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/contratos-locacion-obra`} onClick={scrollToTop}>
-    <CardServicios titulo={"Contratos de Locacion de Obra"} img="Gestion/contratoobra.jpg"/></Link>
+    <CardServicios titulo={"Contratos de Locación de Obra"} img="Gestion/contratoobra.jpg"/></Link>
     
     </section>
     </>
