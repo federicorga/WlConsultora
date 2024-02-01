@@ -1,8 +1,8 @@
 import './../Subtitles.css'
-function Subtitleh2({text}) {
+function Subtitleh2({text, clase}) {
   return (
     <>
-       <h2 className="Subtitle-h2">{text}</h2>
+       <h2 className={`Subtitle-h2 ${clase}`}>{text}</h2>
     </>
   );
 }

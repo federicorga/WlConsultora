@@ -11,6 +11,19 @@ import Subtitleh3 from '../../ComponentesAccesorios/Subtitles/Subtitleh3/Subtitl
 function InfoServicio() {
   return (
     <section className='Section-InfoServicio-Grups-All'>
+
+    <div className='InfoServicio-Card'>
+      <IcoHora width='35' height='35'/>
+      <Subtitleh2 text={"Disponibilidad"}/>
+      <div className='content-InfoServicio-Grups'>
+      <Subtitleh3 text={"Opciones de comunicacion"}/>
+      <div className="grupoElementos-InfoServicio">
+      <div className="infoservicio-item"><IcoVideoLlamada width='25' height='25'/><p>Videollamada</p></div>
+      <div className="infoservicio-item"><IcoWhatsapp width='25' height='25'/><p>Whatsapp</p></div>
+      <div className="infoservicio-item">< IcoEmail width='25' height='25'/><p>Correo electronico</p></div>
+      </div>
+      </div>
+    </div>        
     <div className='InfoServicio-Card'>
         <IcoCard width='35' height='35'/>
         <Subtitleh2 text={"Formas de Pago"}/>
@@ -23,18 +36,7 @@ function InfoServicio() {
         </div>
      </div>
 
-     <div className='InfoServicio-Card'>
-        <IcoHora width='35' height='35'/>
-        <Subtitleh2 text={"Disponibilidad"}/>
-        <div className='content-InfoServicio-Grups'>
-        <Subtitleh3 text={"Opciones de comunicacion"}/>
-        <div className="grupoElementos-InfoServicio">
-        <div className="infoservicio-item"><IcoVideoLlamada width='25' height='25'/><p>Videollamada</p></div>
-        <div className="infoservicio-item"><IcoWhatsapp width='25' height='25'/><p>Whatsapp</p></div>
-        <div className="infoservicio-item">< IcoEmail width='25' height='25'/><p>Correo electronico</p></div>
-        </div>
-        </div>
-     </div>        
+   
     </section>
   );
 }
