@@ -12,11 +12,14 @@ header{
 
 nav {
     display: flex;
-    font-size: 0.9rem;
-    padding-top: 10px;
+    letter-spacing: 1px;
+    padding: 1em 0;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: var(--ff-nav-bar);
+    font-size: 0.95rem;
+    letter-spacing: 1.4px;
+    font-family: var(--ff-textp);
     
 }
+

@@ -2,12 +2,12 @@
 import './BtnIndice.css'
 
 function BtnIndice({text}) {
-  const texto= text.toUpperCase()
+  //const texto= text.toUpperCase()
   return (
     <>
       <li >
                        
-        <p className='btnIndicep'>{texto}</p>
+        <p className='btnindicep'>{text}</p>
                    
         </li>
     </>

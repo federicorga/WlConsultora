@@ -11,3 +11,12 @@ footer{
 footer p{
     color: #7e7e7e;
 }
+
+
+.div-footer-copyright{
+    width: 32%;
+}
+
+.div-footer-logo{
+    width: 33.33%;
+}
