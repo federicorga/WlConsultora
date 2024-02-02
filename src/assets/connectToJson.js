@@ -1,4 +1,4 @@
-const catalogJson = 'json/articulos.json';
+const catalogJson = '/json/articulos.json';
 const arrayArtic= ListaArticulos(catalogJson);
 
 const generarId = (array, objeto) => {
