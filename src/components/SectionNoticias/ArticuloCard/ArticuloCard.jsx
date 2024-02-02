@@ -13,7 +13,8 @@ function ArticuloCard({ articulo}) {
     // Ahora puedes acceder a las propiedades de 'articulo' de forma segura
     let fechas = articulo.fechas.toUpperCase();
     let titulo = articulo.tituloArt.toUpperCase();
-    const primerasTreintaPalabras = articulo.fragmentoTexto.split(' ').slice(0, 21).join(' ');
+    const fragmentoTextoString = Array.isArray(articulo.fragmentoTexto) ? articulo.fragmentoTexto.join(' ') : articulo.fragmentoTexto;
+    const primerasTreintaPalabras = fragmentoTextoString.split(' ').slice(0, 21).join(' ');
     return (
         <div className='articuloCard-div'>
            
