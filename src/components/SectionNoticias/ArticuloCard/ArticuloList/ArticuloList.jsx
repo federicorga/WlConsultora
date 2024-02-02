@@ -8,7 +8,7 @@ const ArticuloList = ({listaArticulos}) => {
             {listaArticulos.map(articulo => 
             
             
-            <ArticuloCard articulo = {articulo}/>
+            <ArticuloCard key={articulo.id} articulo = {articulo}/>
            
             )
             }

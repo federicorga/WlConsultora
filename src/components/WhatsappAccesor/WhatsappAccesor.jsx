@@ -5,7 +5,7 @@ function WhatsappAccesor() {
   return (
     <>
     <div id="Whatsapp" className="WhatsappI">
-        <WhatsappLink img={<img src="img/icon-whatsapp.png" alt="Icono Whatsapp"/>}/>
+        <WhatsappLink img={<img src="/img/icon-whatsapp.png" alt="Icono Whatsapp"/>}/>
  
     </div>
 
