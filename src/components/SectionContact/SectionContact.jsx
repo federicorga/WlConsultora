@@ -11,6 +11,8 @@ import Subtitleh3 from '../ComponentesAccesorios/Subtitles/Subtitleh3/Subtitleh3
 import IcoUbicacion from '../IconsSVG/IcoUbicacion';
 import { Link } from 'react-router-dom';
 
+import { telefonoWhatsapp,textoPredeterminadoWhatsapp } from '../WhatsappAccesor/WhatsappLink';
+
 function SectionContact() {
   return (
     <>
@@ -37,8 +39,7 @@ function SectionContact() {
           </Link>
           </li>
           <li class="elementor-icon-list-item"> 
-          <Link to={"https://wa.me/543516167336/?text=Hola!%20Quiero%20agendar%20una%20cita"}>
-          
+          <Link to={`https://wa.me/${telefonoWhatsapp}/?text=${textoPredeterminadoWhatsapp}`}>
         <IcoWhatsapp width='30' height='30'/>
          <span class="elementor-icon-list-text">Whatsapp</span></Link></li>
         </ul>

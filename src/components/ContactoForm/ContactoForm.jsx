@@ -30,7 +30,9 @@ function ContactoForm( {title="Contactenos"}) {
      
       <label htmlFor="comment">Comentario</label>
     </div>
+    <div className='group btnsubmit-div'>
     <button type="submit">Solicitar una cita</button>
+    </div>
   </form>
 </div>
 

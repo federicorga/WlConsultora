@@ -15,6 +15,12 @@ const SectionInicio = () => {
     <Titles fontSize="30px" textTitle={`Defendemos Tus Intereses, Impulsamos Tu Negocio`}/> 
     </div>
 
+
+    <div className="inicio-secB">
+    <Subtitleh2 clase={"edit-title-h2-secC"} text={"NUESTROS SERVICIOS"}/>
+    <InfoServicio/>
+    </div>
+
     <div className="inicio-secA">
     <Subtitleh2 text={"¿NECESITAS ESTAR TRANQUILO CON LA SITUACON LEGAL DE TU EMPRESA O EMPRENDIMIENTO?"}></Subtitleh2>
     <Subtitleh3 text={"Podemos Acompañarte y Asesorarte en las distintas Alternativas"}></Subtitleh3>
@@ -23,12 +29,6 @@ const SectionInicio = () => {
     </div>
     </div>
 
-    <div className="inicio-secB">
-    <Subtitleh2 clase={"edit-title-h2-secC"} text={"NUESTROS SERVICIOS"}/>
-    <InfoServicio/>
-    </div>
-
-    
     <div className="inicio-secC">
     <Subtitleh2 clase={"edit-title-h2-secC"} text={"¿Por que elegirnos?"}></Subtitleh2>
     <div className="content-inicio-p-sub-line-all">
@@ -69,6 +69,11 @@ const SectionInicio = () => {
     </div>
     </div>
 
+
+   
+
+    
+ 
   
 
    

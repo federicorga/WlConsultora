@@ -14,7 +14,7 @@
   
   .faq-question {
     padding: 10px;
-    background-color: #2a5785;
+    background-color: var( --clr-color-btn-faq);
     cursor: pointer;
   }
 
@@ -45,6 +45,6 @@
   
   .faq-question:hover {
     transition: 0.5s;
-    background-color: #4d749b;
+    background-color: var(--clr-color-btn-faq-hover);
   }
   

@@ -40,7 +40,7 @@ background-repeat: no-repeat;}
 }
 
 .inicio-secB{
-    background: var(--clr-color-background1);
+    
   padding: 50px 50px;
 }
 
@@ -52,6 +52,7 @@ background-repeat: no-repeat;}
 }
 
 .inicio-secC{
+    background: var( --clr-color-section1);
     padding-top: 96px;
     padding-bottom: 20px;
 }

@@ -1,11 +1,11 @@
 .Seccion-CardsServicios{
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 100px;
+    padding-left: 14%;
+    padding-right: 4%;
+    padding-bottom: 200px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .section-Asesoria{

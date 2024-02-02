@@ -34,6 +34,7 @@ import ContratoLocServicios from './components/SectionGestion/ContratoLocServici
 import FondosComercio from './components/SectionGestion/FondoComercio/FondosComercio';
 import Habilitaciones from './components/SectionGestion/Habilitaciones/Habilitaciones';
 import LocacionInmobiliaria from './components/SectionGestion/LocacionInmobiliaria/LocacionInmobiliaria';
+import WhatsappAccesor from './components/WhatsappAccesor/WhatsappAccesor';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
   return (
    <>
    <Router>
+    <WhatsappAccesor/>
     <NavBar/>
     <Routes>
     <Route path='/' element={<SectionInicio/>}/>

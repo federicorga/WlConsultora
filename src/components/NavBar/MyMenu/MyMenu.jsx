@@ -8,7 +8,7 @@ function MyMenu() {
   return (
     <>
       <ul className='nav-list'>
-        <Link to={"/"} onClick={scrollToTop}><BtnIndice text={'Home'}  /></Link>
+        <Link to={"/"} onClick={scrollToTop}><BtnIndice text={'Inicio'}  /></Link>
         <Link to={"/noticias"} onClick={scrollToTop}> <BtnIndice text={'Noticias'} /></Link>
        <Link to={"/asesoria-legal"} onClick={scrollToTop}> <BtnIndice text={'Area de asesoramiento'} /></Link>
        <Link to={"/gestion"} onClick={scrollToTop}> <BtnIndice text={'Area de gestión'} /></Link>

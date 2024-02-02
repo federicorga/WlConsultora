@@ -53,6 +53,7 @@
     padding: 0 0 0 28px;
     border-style: solid;
     border-width: 0 0 0 1px;
+
     border-color: #b1976b;
     color: var(--clr-color-article-title);
     font-family: var(--ff-text-p-legal);
@@ -83,7 +84,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-
+    padding-bottom: 5px;
     font-family: var(--ff-text-p-legal);
     color: var(--clr-color-article-title);
     text-decoration: none;

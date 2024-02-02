@@ -22,6 +22,9 @@
   --clr-color-nav-bar: rgb(255, 255, 255);
 
   --clr-color-hover-text1: #679dd2;
+  --clr-color-btn-hover:#27408b;
+  --clr-color-btn-faq:#5b649c;
+  --clr-color-btn-faq-hover:#7680be;
  
   --clr-color-hover-text2:rgb(53 198 218);
   --clr-color-article-title:#5b649c;
@@ -30,8 +33,10 @@
   --clr-color-line1:#b1976b;
   --clr-color-line2:#6699cc;
   --clr-color-line3:#ccc;
-  --clr-color-background-cardnoticia:#f5f5f5; 
-  --clr-color-background1:#f5f5f5;
+  --clr-color-section1:#e4e6e8;
+  --clr-color-background2:#313654;
+  --clr-color-background-cardnoticia:#e4e6e8; 
+  --clr-color-background1:#e4e6e8;
   --clr-color-text2:
   --clr-color-sub:
   
