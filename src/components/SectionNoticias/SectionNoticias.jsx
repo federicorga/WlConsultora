@@ -1,7 +1,6 @@
 
 import "./SectionNoticias.css";
 import PortadaSections from "../PortadaSections/PortadaSections";
-
 import ArticuloList from "./ArticuloCard/ArticuloList/ArticuloList";
 import { useEffect, useState } from "react";
 import { arrayArtic } from "../../assets/connectToJson";

@@ -58,6 +58,31 @@ background-repeat: no-repeat;}
     padding-bottom: 20px;
 }
 
+
+.inicio-secD{
+ 
+    padding: 50px 50px 400px 80px;
+
+    
+}
+
+.inicio-area-asesoria{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.inicio-area-gestion{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .inicio-secC-title{
     text-align: center;
     padding-bottom: 30px;
