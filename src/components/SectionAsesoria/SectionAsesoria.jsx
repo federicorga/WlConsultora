@@ -17,6 +17,8 @@ const SectionAsesoria = () => {
     <>
  <PortadaSections titlePortada={"Asesoria Legal"} imagen={"https://www.diariosigloxxi.com/multimedia/images/img_4a3f1239125d0dbafebe54d7c78d65f4.jpg"}/>
 
+ 
+ <section className='section-contain-Asesoria-all'>
  <section className="section-Asesoria" >
       <Subtitleh2 text={"NUESTROS SERVICIOS DE ASESORIA"}/>
       <div className='tamlinasesor' id="Ases">
@@ -51,6 +53,7 @@ const SectionAsesoria = () => {
     <CardServicios titulo={"Normas ISO 9001"} img="Asesoramiento/normaiso9001.jpg"/></Link>
     <Link className='link-articuloCard'  to={`/asesoria-legal/normas-iso45001`} onClick={scrollToTop}>
     <CardServicios titulo={"Normas ISO 45001"} img="Asesoramiento/normaiso45001.png"/></Link>
+    </section>
     </section>
     </>
   );

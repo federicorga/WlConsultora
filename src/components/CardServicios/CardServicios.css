@@ -1,10 +1,10 @@
 figure {
-    margin: 10px;
-    display: grid;
-    width: 17rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    cursor: pointer;
+  margin: 1px;
+  display: grid;
+  width: 17rem;
+  overflow: hidden;
+  cursor: pointer;
+
   }
   figure > * {
     grid-area: 1/1;

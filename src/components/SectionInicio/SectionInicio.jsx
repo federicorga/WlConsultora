@@ -26,13 +26,7 @@ const SectionInicio = () => {
   return (
  <>
     <div className='fondoInicio'>
-    <Titles fontSize="30px" textTitle={`Defendemos Tus Intereses, Impulsamos Tu Negocio`}/> 
-    </div>
-
-
-    <div className="inicio-secB">
-    <Subtitleh2 clase={"edit-title-h2-secC"} text={"NUESTROS SERVICIOS"}/>
-    <InfoServicio/>
+    <Titles fontSize="35px" textTitle={`Defendemos Tus Intereses, Impulsamos Tu Negocio`}/> 
     </div>
 
     <div className="inicio-secA">
@@ -42,6 +36,14 @@ const SectionInicio = () => {
     <BtnSection titleBtn={"CONTACTANOS!"} url={"/contacto"}/>
     </div>
     </div>
+
+
+    <div className="inicio-secB">
+    <Subtitleh2 clase={"edit-title-h2-secC"} text={"NUESTROS SERVICIOS"}/>
+    <InfoServicio/>
+    </div>
+
+ 
 
     <div className="inicio-secC">
     <div data-aos="flip-left">

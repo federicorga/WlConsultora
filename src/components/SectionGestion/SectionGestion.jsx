@@ -9,14 +9,15 @@ function SectionGestion() {
   return (
     <>
       <PortadaSections titlePortada={"Gestión"} imagen={"https://europadigital.es/wp-content/uploads/2021/10/Abogados-para-empresas.jpeg"}/>
-      <section className="section-Gestion" >
-      <Subtitleh2 text={"NUESTROS SERVICIOS DE GESTIÓN"}/>
-      <div className='tamlinasesor' id="Ases">
-      <LineSepar/>
-      </div>
-      </section>
- <section className='Seccion-CardsServicios'>
-
+  
+  <section className="section-contain-Gestion-all">
+  <section className="section-Gestion" >
+    <Subtitleh2 text={"NUESTROS SERVICIOS DE GESTIÓN"}/>
+    <div className='tamlinasesor' id="Ases">
+    <LineSepar/>
+    </div>
+  </section>
+  <section className='Seccion-CardsServicios'>
     <Link className='link-articuloCard' to={`/gestion/constitucion-societaria`} onClick={scrollToTop}>
     <CardServicios titulo={"Constitucion Societaria"} img="Gestion/constitucionsocietaria.jpeg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/locacion-inmobiliaria`} onClick={scrollToTop}>
@@ -30,7 +31,8 @@ function SectionGestion() {
     <Link className='link-articuloCard' to={`/gestion/contratos-locacion-obra`} onClick={scrollToTop}>
     <CardServicios titulo={"Contratos de Locación de Obra"} img="Gestion/contratoobra.jpg"/></Link>
     
-    </section>
+  </section>
+  </section>
     </>
    
   );
