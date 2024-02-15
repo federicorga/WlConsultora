@@ -1,10 +1,10 @@
-import PortadaSections from "../PortadaSections/PortadaSections";
+import PortadaSections from "../../PortadaSections/PortadaSections";
 import "./SectionGestion.css"
-import { scrollToTop } from "../../assets/main";
+import { scrollToTop } from "../../../assets/main";
 import { Link } from "react-router-dom";
-import CardServicios from "../CardServicios/CardServicios";
-import LineSepar from "../ComponentesAccesorios/LineSepar/LineSepar";
-import Subtitleh2 from "../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2";
+import CardServicios from "../../CardServicios/CardServicios";
+import LineSepar from "../../ComponentesAccesorios/LineSepar/LineSepar";
+import Subtitleh2 from "../../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2";
 function SectionGestion() {
   return (
     <>

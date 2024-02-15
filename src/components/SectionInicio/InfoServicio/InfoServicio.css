@@ -20,7 +20,7 @@
 .content-InfoServicio-Grups{
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
     align-items: center;
     color: var(--clr-color-article-title);
 }

@@ -25,7 +25,7 @@
 }
 
 .Articulo-detail-content p{
-    font-family: 'Montserrat Light', arial;
+    font-family: var(--ff-text-p-legal);
     padding-bottom: 10px;
     font-weight: 500;
     text-align: justify;

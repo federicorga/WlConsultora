@@ -33,8 +33,7 @@
 
 
 .articuloCard-texto{
-
-    font-family: 'Montserrat Light', arial;
+    font-family: var(--ff-text-p-legal);
     margin: 0 0 10px;
     font-size: 12px;
 

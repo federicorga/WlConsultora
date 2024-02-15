@@ -1,10 +1,11 @@
 import './Gestion.css'
-import PortadaSections from '../../PortadaSections/PortadaSections';
-import Subtitleh2 from '../../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2';
-import Subtitleh3 from '../../ComponentesAccesorios/Subtitles/Subtitleh3/Subtitleh3';
 import { Link } from 'react-router-dom';
-import LineSepar from '../../ComponentesAccesorios/LineSepar/LineSepar';
-import ContactoForm from '../../ContactoForm/ContactoForm';
+import Subtitleh2 from '../../../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2';
+import Subtitleh3 from '../../../ComponentesAccesorios/Subtitles/Subtitleh3/Subtitleh3';
+import LineSepar from '../../../ComponentesAccesorios/LineSepar/LineSepar';
+import ContactoForm from '../../../ContactoForm/ContactoForm';
+import PortadaSections from '../../../PortadaSections/PortadaSections';
+
 
 function Gestion({titulo, textoServicio, subtitulo}) {
   return (

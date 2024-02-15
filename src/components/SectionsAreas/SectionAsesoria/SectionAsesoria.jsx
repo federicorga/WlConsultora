@@ -1,17 +1,13 @@
 import './SectionAsesoria.css'
-import PortadaSections from '../PortadaSections/PortadaSections';
-import CardServicios from '../CardServicios/CardServicios';
+import PortadaSections from '../../PortadaSections/PortadaSections';
+import CardServicios from '../../CardServicios/CardServicios';
 import { Link } from 'react-router-dom';
-import LineSepar from '../ComponentesAccesorios/LineSepar/LineSepar';
-import Subtitleh2 from '../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2';
-import Subtitleh3 from '../ComponentesAccesorios/Subtitles/Subtitleh3/Subtitleh3';
-import { scrollToTop } from '../../assets/main';
+import LineSepar from '../../ComponentesAccesorios/LineSepar/LineSepar';
+import Subtitleh2 from '../../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2';
+import Subtitleh3 from '../../ComponentesAccesorios/Subtitles/Subtitleh3/Subtitleh3';
+import { scrollToTop } from '../../../assets/main';
 
 const SectionAsesoria = () => {
-
-
-
-
 
   return (
     <>

@@ -29,7 +29,7 @@
 
 
 .Asesoria-detail-content p{
-    font-family: 'Montserrat Light', arial;
+    font-family: var(--ff-text-p-legal);
     margin-top: 20px;
     font-weight: 500;
     text-align: justify;

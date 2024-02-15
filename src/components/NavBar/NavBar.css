@@ -6,8 +6,9 @@ header{
 }
 
 .scrolled {
-    background-color: rgb(0 0 0 / 58%);
+    background-color: #00000094;
     z-index: 999;
+    opacity: .7;
 }
 
 nav {

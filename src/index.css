@@ -19,6 +19,8 @@
   --ff-title: 'Montserrat',sans-serif;
   --ff-text-p-legal:'Montserrat Light', arial;
   --ff-text-title2:'Libre Baskerville', serif;
+  --ff-text-title-h2:'Montserrat',sans-serif;
+  --ff-text-title-h3:'Montserrat',sans-serif;
   --clr-color-nav-bar: rgb(255, 255, 255);
 
   --clr-color-hover-text1: #b0c2d7;
@@ -72,10 +74,13 @@
   
   --tw-text-opacity: 1;
 
+  --ft-tamaño-pgeneral:0.9em;
+
 }
 
 body{
-  zoom: 90%;
-  font-family: var('Roboto', sans-serif);
+  zoom: 100%;
+  font-family: var('Montserrat',sans-serif);
+  font-weight: 400;
   
 }
