@@ -57,7 +57,7 @@ const SectionAsesoria = () => {
     <Link className='link-articuloCard'  to={`/asesoria-legal/normas-iso45001`} onClick={scrollToTop}>
     <CardServicios titulo={"Normas ISO 45001"} img="Asesoramiento/normaiso45001.png"/></Link>
     <Link className='link-articuloCard'  to={`/asesoria-legal/planificacion-del-transporte`} onClick={scrollToTop}>
-    <CardServicios titulo={"Planificación del transporte"} img="Asesoramiento/transportelogistica.jpg"/></Link> 
+    <CardServicios titulo={"Planificación del transporte"} img="Asesoramiento/plantransp.webp"/></Link> 
     <Link className='link-articuloCard'  to={`/asesoria-legal/Incoterms`} onClick={scrollToTop}>
     <CardServicios titulo={"Contratos de comercio exterior"} img="Asesoramiento/comercio-exterior.jpg"/></Link> 
     </div>
