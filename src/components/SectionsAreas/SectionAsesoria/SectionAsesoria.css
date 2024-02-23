@@ -3,14 +3,19 @@
 }
 .Seccion-CardsServicios{
     display: flex;
-    padding-left: 9%;
+    padding-left: 10%;
     /* padding-right: 4%; */
     padding-bottom: 200px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
+.group-Card{
+    display: flex;
+    width: 80%;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
 .section-Asesoria{
     display: flex;
     /* padding: 40px 100px 40px 0px; */

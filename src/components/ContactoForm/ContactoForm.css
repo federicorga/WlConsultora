@@ -71,7 +71,7 @@
   
   .form button {
   
-    background-color: var(--clr-color-article-title);
+    background-color: var( --clr-color-btn-basic);
     color: #fff;
     font-family: var(--ff-text-p-legal);
     border: none;

@@ -33,9 +33,9 @@ function SectionContact() {
           <span class="elementor-icon-list-text">Teléfono: +54 351 6167336</span> 
           </Link></li>
           <li class="elementor-icon-list-item"> 
-          <Link to={`mailto:wlconsultora@gmail.com.ar`}>
+          <Link to={`mailto:wlconsultoraintegral@gmail.com.ar`}>
           <IcoEmail width='30' height='30'/>
-          <span class="elementor-icon-list-text">Email: wlconsultora@gmail.com.ar</span> 
+          <span class="elementor-icon-list-text">Email: wlconsultoraintegral@gmail.com.ar</span> 
           </Link>
           </li>
           <li class="elementor-icon-list-item"> 

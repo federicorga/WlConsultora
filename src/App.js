@@ -35,6 +35,8 @@ import FondosComercio from './components/SectionsAreas/SectionGestion/FondoComer
 import Habilitaciones from './components/SectionsAreas/SectionGestion/Habilitaciones/Habilitaciones';
 import LocacionInmobiliaria from './components/SectionsAreas/SectionGestion/LocacionInmobiliaria/LocacionInmobiliaria';
 import WhatsappAccesor from './components/WhatsappAccesor/WhatsappAccesor';
+import PlanificacionDelTransporte from './components/SectionsAreas/SectionAsesoria/PlanificacionDelTransporte/PlanificacionDelTransporte';
+import Incoterms from './components/SectionsAreas/SectionAsesoria/Incoterms/Incoterms';
 
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
     <Route path='/asesoria-legal/contratos-seguros' element={<ContratoSeguros/>}/>
     <Route path='/asesoria-legal/normas-iso9001' element={<NormaISO9001/>}/>
     <Route path='/asesoria-legal/normas-iso45001' element={<NormaISO45001/>}/>
+    <Route path='/asesoria-legal/planificacion-del-transporte' element={<PlanificacionDelTransporte/>}/>
+    <Route path='/asesoria-legal/Incoterms' element={<Incoterms/>}/>
 
 
     <Route path='/gestion/constitucion-societaria' element={<ConstitucionSocietaria/>}/>

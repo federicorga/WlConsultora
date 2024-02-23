@@ -4,6 +4,7 @@ figure {
   width: 17rem;
   overflow: hidden;
   cursor: pointer;
+  border-radius: 5px;
 
   }
   figure > * {

@@ -2,14 +2,14 @@ footer{
     width: 100%;
     display: flex;
     padding: 20px 60px 20px 0px;
-    background: #000;
     border-top: 4px solid #fff;
+    background: #5d6067;
     justify-content: space-around;
     align-items: center;
 }
 
 footer p{
-    color: #7e7e7e;
+    color: #fff;
 }
 
 
