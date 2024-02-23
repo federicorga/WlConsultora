@@ -44,6 +44,10 @@
     
 }
 
+.padg{
+    padding-top: 0px;
+}
+
 .infoservicio-item p{
     font-family: var(--ff-text-p-legal);
     color: var(--clr-color-subtitle);

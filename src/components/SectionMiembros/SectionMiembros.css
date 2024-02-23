@@ -6,6 +6,16 @@
     justify-content: space-around;
    
 }
+.Seccion-Content-Miembros-text p{
+    font-family: var(--ff-text-p-legal);
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 1rem;
+  
+    padding-right: 10%;
+}
 .Seccion-Content-Miembros{
     padding-top: 50px;
     display: flex;

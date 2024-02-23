@@ -2,7 +2,7 @@
 
 function IcoMercadoLibre({width="64",height="64"}) {
   return (
-    <svg width={width} height={height} viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+    <svg width={width} height={height} viewBox="5 0 48 48" xmlns="http://www.w3.org/2000/svg">
     <ellipse cx="24" cy="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="19.5" ry="12.978"/>
     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M9.704 15.53a20.835 20.835 0 0 0 6.386 1.866a22.82 22.82 0 0 0 4.546-.773"/>
     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M38.882 15.614a8.616 8.616 0 0 1-5.165 1.485c-3.335 0-6.225-2.199-9.215-2.199c-2.668 0-7.189 4.373-7.189 5.164s1.31 1.26 2.372.74c.621-.303 3.31-2.914 5.484-2.914s9.219 7.136 9.857 7.806c.989 1.038-.926 3.274-2.149 2.05s-3.41-3.162-3.41-3.162"/>

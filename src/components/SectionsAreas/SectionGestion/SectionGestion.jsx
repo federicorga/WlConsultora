@@ -26,19 +26,22 @@ function SectionGestion() {
       </div>
   </section>
   <section className='Seccion-CardsServicios'>
+  <div className='group-Card'>
     <Link className='link-articuloCard' to={`/gestion/constitucion-societaria`} onClick={scrollToTop}>
     <CardServicios titulo={"Constitucion Societaria"} img="Gestion/constitucionsocietaria.jpeg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/locacion-inmobiliaria`} onClick={scrollToTop}>
     <CardServicios titulo={"Locación Inmobiliaria"} img="Gestion/contratoinmobiliaria.jpg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/fondos-comercio`} onClick={scrollToTop}>
     <CardServicios titulo={"Fondos de Comercio"} img="Gestion/fondocomercio.webp"/></Link>
+    </div>
+    <div className='group-Card'>
     <Link className='link-articuloCard' to={`/gestion/habilitaciones`} onClick={scrollToTop}>
     <CardServicios titulo={"Habilitaciones"} img="Gestion/habilitaciones.jpg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/contratos-locacion-servicios`} onClick={scrollToTop}>
     <CardServicios titulo={"Contratos de Locación de Servicios"} img="Gestion/contratoservicios.jpg"/></Link>
     <Link className='link-articuloCard' to={`/gestion/contratos-locacion-obra`} onClick={scrollToTop}>
     <CardServicios titulo={"Contratos de Locación de Obra"} img="Gestion/contratoobra.jpg"/></Link>
-    
+    </div>
   </section>
   </section>
     </>

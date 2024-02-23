@@ -21,8 +21,8 @@
   .faq-question h2{
  
     font-size: 1.4rem;
-    font-weight: 600;
-    font-family: var(--ff-title);
+    font-weight: 500;
+    font-family: var(--ff-text-p-legal);
     color: var(--clr-color-nav-bar);
   }
   
@@ -36,7 +36,7 @@
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 500;
-    font-family: var(--ff-body);
+    font-family: var(--ff-text-p-legal);
   }
   
   .faq-item:not(:last-child) {
