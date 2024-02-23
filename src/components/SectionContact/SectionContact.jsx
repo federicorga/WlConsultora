@@ -30,7 +30,7 @@ function SectionContact() {
           <Link to={`tel:+541536167336`}>
        
           <IcoLlamada width='30' height='30'/>
-          <span class="elementor-icon-list-text">Teléfono: +54 351 6167336</span> 
+          <span class="elementor-icon-list-text">Teléfono: +54 9 11 5314-0359</span> 
           </Link></li>
           <li class="elementor-icon-list-item"> 
           <Link to={`mailto:wlconsultoraintegral@gmail.com.ar`}>
