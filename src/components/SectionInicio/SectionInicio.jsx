@@ -16,12 +16,12 @@ const SectionInicio = () => {
   useEffect(() => {
     Aos.init({
       
-      offset: -900,
+      offset: -780,
       duration: 800, // Duración de las animaciones en milisegundos
       easing: 'ease-in-out', // Tipo de easing (opcional)
       once: false, // Solo activar las animaciones una vez
     });
-  }, []);
+  }, [AosData]);
 
   return (
  <>
@@ -30,7 +30,7 @@ const SectionInicio = () => {
     </div>
 
     <div className="inicio-secA">
-    <Subtitleh2 text={"¿NECESITAS ESTAR TRANQUILO CON LA SITUACON LEGAL DE TU EMPRESA O EMPRENDIMIENTO?"}></Subtitleh2>
+    <Subtitleh2 text={"¿NECESITAS ESTAR TRANQUILO CON LA SITUACIÓN LEGAL DE TU EMPRESA O EMPRENDIMIENTO?"}></Subtitleh2>
     <Subtitleh3 text={"Podemos Acompañarte y Asesorarte en las distintas Alternativas"}></Subtitleh3>
     <div className="inicio-SecA-btnsect">
     <BtnSection titleBtn={"CONTACTANOS!"} url={"/contacto"}/>
@@ -166,21 +166,6 @@ const SectionInicio = () => {
     </div>
     </div>
     </div>
-    
-   
-
-    
- 
-  
-
-   
-  
-   
-    
-    
-
-   
-
  
     </>
   );
