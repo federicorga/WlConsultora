@@ -49,3 +49,20 @@ font-weight: 600;
     transition: 0.5s;
     color: var(--clr-color-article-title);
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .Asesoria-Section-g{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    flex-direction: column;
+}
+
+.Asesoria-detail-content{
+    padding-left: 0;
+}
+}
+

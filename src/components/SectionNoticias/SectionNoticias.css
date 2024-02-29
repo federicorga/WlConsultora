@@ -1,6 +1,6 @@
 .section-noticias{
     display: flex;
-    padding: 40px 100px 40px 100px;
+    padding: 40px 100px 60px 100px;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -12,3 +12,12 @@
     
 }
 
+
+@media screen and (max-width: 768px) {
+
+    .section-articulos{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+}

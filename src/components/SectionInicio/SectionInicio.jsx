@@ -26,9 +26,10 @@ const SectionInicio = () => {
   return (
  <>
     <div className='fondoInicio'>
-    <Titles fontSize="35px" textTitle={`Defendemos Tus Intereses, Impulsamos Tu Negocio`}/> 
+    <Titles fontSize="35px" textTitle={`Defendemos Tus Intereses, Impulsamos Tu Negocio`}/>
+  
     </div>
-
+    
     <div className="inicio-secA">
     <Subtitleh2 text={"¿NECESITAS ESTAR TRANQUILO CON LA SITUACIÓN LEGAL DE TU EMPRESA O EMPRENDIMIENTO?"}></Subtitleh2>
     <Subtitleh3 text={"Podemos Acompañarte y Asesorarte en las distintas Alternativas"}></Subtitleh3>
@@ -37,13 +38,16 @@ const SectionInicio = () => {
     </div>
     </div>
 
-
     <div className="inicio-secB">
     <Subtitleh2 clase={"edit-title-h2-secC"} text={"NUESTROS SERVICIOS"}/>
     <InfoServicio/>
     </div>
 
  
+
+
+
+
 
     <div className="inicio-secC">
     <div data-aos="flip-left">
@@ -90,6 +94,11 @@ const SectionInicio = () => {
     </div>
   </div>
 
+
+ 
+ 
+
+    
 
     <div className="inicio-secD">
     <Subtitleh2 clase={"edit-title-h2-secC"} text={"NUESTRAS AREAS"} />
@@ -161,7 +170,10 @@ const SectionInicio = () => {
       <CardServicios titulo={"Contratos de Locación de Servicios"} img="Gestion/contratoservicios.jpg"/></Link>
       <Link className='link-articuloCard' to={`/gestion/contratos-locacion-obra`} onClick={scrollToTop}>
       <CardServicios titulo={"Contratos de Locación de Obra"} img="Gestion/contratoobra.jpg"/></Link>
+      <Link className='link-articuloCard' to={`/gestion/insolvencia-patrimonial`} onClick={scrollToTop}>
+      <CardServicios titulo={"Insolvencia patrimonial"} img="Gestion/insolvenciapatrimonial.jpg"/></Link>
       </div>
+
    
     </div>
     </div>

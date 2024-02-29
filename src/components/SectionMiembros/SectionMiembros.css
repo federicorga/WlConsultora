@@ -30,3 +30,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+
+@media screen and (max-width: 768px) {
+    .Seccion-Content-Miembros{
+        padding-top: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    }
+}

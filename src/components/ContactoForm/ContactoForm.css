@@ -28,11 +28,11 @@
     font-size: 14px;
     color: rgb(99, 102, 102);
     position: absolute;
-    top: -10px;
+    top: -13px;
     left: 10px;
-    background-color: #fff;
     transition: all .3s ease;
   }
+
   
   .form .group input,
   .form .group textarea {
@@ -55,10 +55,10 @@
     border-color:var(--clr-color-article-title);
   }
   
-  .form .group input:focus+ label, .form .group textarea:focus +label {
-    top: -10px;
+  .form .group input:focus+ label, .form .group textarea:focus+ label {
+    top: -13px;
     left: 10px;
-    background-color: #fff;
+
     color: var(--clr-color-article-title);
     font-weight: 600;
     font-size: 14px;

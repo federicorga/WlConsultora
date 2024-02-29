@@ -37,6 +37,7 @@ import LocacionInmobiliaria from './components/SectionsAreas/SectionGestion/Loca
 import WhatsappAccesor from './components/WhatsappAccesor/WhatsappAccesor';
 import PlanificacionDelTransporte from './components/SectionsAreas/SectionAsesoria/PlanificacionDelTransporte/PlanificacionDelTransporte';
 import Incoterms from './components/SectionsAreas/SectionAsesoria/Incoterms/Incoterms';
+import InsolvenciaPatrimonial from './components/SectionsAreas/SectionGestion/InsolvenciaPatrimonial/InsolvenciaPatrimonial';
 
 
 function App() {
@@ -71,7 +72,7 @@ function App() {
     <Route path='/gestion/fondos-comercio' element={<FondosComercio/>}/>
     <Route path='/gestion/habilitaciones' element={<Habilitaciones/>}/>
     <Route path='/gestion/locacion-inmobiliaria' element={<LocacionInmobiliaria/>}/>
-
+    <Route path='/gestion/insolvencia-patrimonial' element={<InsolvenciaPatrimonial/>}/>
 
     <Route path='/gestion' element={<SectionGestion/>}/>
     <Route path='/miembros' element={<SectionMiembros/>}/>
