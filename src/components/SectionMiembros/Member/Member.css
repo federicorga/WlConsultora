@@ -56,6 +56,7 @@
 .div-Content-Miembro{
     margin-left: 0;
     margin-right: 0;
+    align-items: flex-start;
 }
 
 .div-Content-Miembro img{
