@@ -11,10 +11,11 @@ function SectionMiembros() {
     <>
       <PortadaSections titlePortada={"miembros"} imagen={"https://st4.depositphotos.com/1046751/23211/i/450/depositphotos_232110166-stock-photo-close-up-a-group-of.jpg"}/>
     <div className='linetitleMiembros'>
-    <div className='tamlinasesor2' id="Ases">
+   
     <Subtitleh2 text={"NUESTROS MIEMBROS"}/>
-    
+   
       <LineSepar/>
+    
 
       <section className='Seccion-Content-Miembros-text'>
       <p>Los miembros de WLConsultora son profesionales de diversas ramas del conocimiento orientados a la creación y puesta en marcha de empresas que cuentan con vasta experiencia en la materia, consolidada en la práctica diaria de resolución de cuestiones propias a la iniciativa de comenzar y ejercer emprendimientos comerciales.</p>
@@ -27,7 +28,7 @@ function SectionMiembros() {
       <ContactoForm/>
       </section>
       </section>
-      </div>
+      
       </div>
 
     </>

@@ -10,3 +10,9 @@
     flex-direction: column;
     align-items:flex-start;
 }
+
+
+@media screen and (max-width: 768px){
+    .SectionFAQLIST {
+        padding: 100px 10px 100px 10px;}
+}

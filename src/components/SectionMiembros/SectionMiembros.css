@@ -41,4 +41,10 @@
     justify-content: space-around;
     flex-direction: column;
     }
+
+    .div-ContentAll-Miembros {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;}
 }
