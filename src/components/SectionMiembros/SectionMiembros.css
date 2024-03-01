@@ -39,9 +39,11 @@
 
 @media screen and (max-width: 768px) {
     .content-form-miembros{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
 
-}
+

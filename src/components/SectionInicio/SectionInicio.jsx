@@ -16,7 +16,7 @@ const SectionInicio = () => {
   useEffect(() => {
     Aos.init({
       
-      offset: -1200,
+      offset: -1300,
       duration: 800, // Duración de las animaciones en milisegundos
       easing: 'ease-in-out', // Tipo de easing (opcional)
       once: false, // Solo activar las animaciones una vez
