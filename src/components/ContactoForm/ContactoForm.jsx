@@ -2,7 +2,7 @@
 import './ContactoForm.css'
 function ContactoForm( {title="Contactenos"}) {
   return (
-    <div>
+    <>
       <div className="card">
   <span className="title">{title}</span>
   <form action="https://formsubmit.co/wlconsultoraintegral@gmail.com" method="POST" className="form" target="_blank">
@@ -35,7 +35,7 @@ function ContactoForm( {title="Contactenos"}) {
   </form>
 </div>
 
-    </div>
+    </>
   );
 }
 
