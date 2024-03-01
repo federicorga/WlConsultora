@@ -1,7 +1,7 @@
 import './SectionMiembros.css'
 import LineSepar from '../ComponentesAccesorios/LineSepar/LineSepar';
 import Subtitleh2 from '../ComponentesAccesorios/Subtitles/Subtitleh2/Subtitleh2';
-import ContactoForm from '../ContactoForm/ContactoForm';
+//import ContactoForm from '../ContactoForm/ContactoForm';
 import PortadaSections from '../PortadaSections/PortadaSections';
 import Member from './Member/Member';
 
@@ -26,7 +26,7 @@ function SectionMiembros() {
               <Member nombre={"Lucas Peña"} titulo={"Licenciado en Higiene y seguridad laboral - Medioambiente. A lo largo de su carrera ha auditado la ejecución de proyectos en caracter de responsable de area en obras publicas tanto para el Estado Nacional como para la Provincia de Buenos Aires. A su vez se ha desempeñado como asesor particular para emprendimientos comerciales."} imgurl={"LucasPena.png"}/>
               </div>
           </section>
-          <ContactoForm/>
+         
         </div>
       </section>
       
