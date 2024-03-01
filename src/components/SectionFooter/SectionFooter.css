@@ -35,3 +35,12 @@ footer p{
     text-decoration: none;
     margin-left: 14px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    }

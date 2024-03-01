@@ -100,3 +100,22 @@
     padding-left: 5px;
     font-size: inherit;
 }
+
+
+@media screen and (max-width: 768px){
+    .section-content-all-contact{
+        padding: 100px 10px 100px 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .div-content-All-Contact {
+        width: 100%;
+    }
+
+    .mapa-contact{
+        width: 100%;
+    }
+}

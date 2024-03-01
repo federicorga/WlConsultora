@@ -15,6 +15,10 @@
 
 @media screen and (max-width: 768px) {
 
+    .section-noticias{
+        padding: 40px 20px 60px 20px;
+    }
+
     .section-articulos{
         display: flex;
     flex-direction: column;
