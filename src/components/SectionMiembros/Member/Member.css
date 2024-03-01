@@ -58,6 +58,12 @@
     margin-right: 0;
 }
 
+.div-Content-Miembro img{
+    width: 90%;
+    border-radius: 20px 20px 20px 20px;
+    height: 90%;
+}
+
 
 
 }
