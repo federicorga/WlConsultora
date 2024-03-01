@@ -16,10 +16,13 @@ const SectionInicio = () => {
   useEffect(() => {
     Aos.init({
       
-      offset: -780,
+      offset: -1200,
       duration: 800, // Duración de las animaciones en milisegundos
       easing: 'ease-in-out', // Tipo de easing (opcional)
       once: false, // Solo activar las animaciones una vez
+      mirror:true,
+      useClassNames: true,
+      disableMutationObserver: true,
     });
   }, [AosData]);
 
