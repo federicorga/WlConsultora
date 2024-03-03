@@ -11,9 +11,9 @@
 }
 
 .div-Content-Miembro img{
-    width: 450px;
+    width: 100%;
     border-radius: 20px 20px 20px 20px;
-    height: 300px;
+
 }
 .div-info-Miembro{
     display: flex;
