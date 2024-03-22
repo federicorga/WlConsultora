@@ -19,7 +19,7 @@ function ContactoForm( {title="Contactenos"}) {
       <label htmlFor="email">Email</label>
     </div>
     <div className="group">
-      <label htmlFor="comment">Comentario</label>
+      <label htmlFor="comment">Consulta</label>
       <textarea
         placeholder=""
         id="comment"
@@ -30,7 +30,7 @@ function ContactoForm( {title="Contactenos"}) {
       />
     </div>
     <div className='group btnsubmit-div'>
-    <button type="submit">Solicitar una cita</button>
+    <button type="submit">Solicitar Asesoría</button>
     </div>
   </form>
 </div>

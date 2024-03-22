@@ -62,7 +62,7 @@ const SectionInicio = () => {
       <Subtitleh2 text={"Superando Obstáculos"}/>
       <MiniLineSepar/>
     </div>
-    <p className="p-textoEstandar p-padding-inicio-text " data-aos="fade-up">Sabemos lo difícil que es animarse a emprender y crear empresas: los miedos y las expectativas, salir de la zona de confort y animarse a ofrecer productos y servicios que mejoren la calidad de vida de las personas, que ahorren tiempo de trabajo, que contribuyan al desarrollo de la sociedad. La incertidumbre que generan los procesos nuevos, aun los más positivos, pueden llegar a representan un factor de desgaste inicial de fuerzas que no debe cargar el emprendedor. Aquí es donde entra WL Consultora: ¡nos encanta iniciar empresas! Lo que generalmente es un factor de confusión para muchos emprendedores, es un factor de proceso de satisfacción para nuestra consultora.</p>
+    <p className="p-textoEstandar p-padding-inicio-text " data-aos="fade-up">Sabemos lo difícil que es animarse a emprender y crear empresas: los miedos y las expectativas, salir de la zona de confort y animarse a ofrecer productos y servicios que mejoren la calidad de vida de las personas, que ahorren tiempos de trabajo, que contribuyan al desarrollo de la sociedad. La incertidumbre que generan los procesos nuevos, aun los más positivos, pueden llegar a representar un factor de desgaste inicial de fuerzas que no debe cargar el emprendedor. Aquí es donde entra WL Consultora: ¡nos encanta iniciar empresas! Lo que generalmente es un factor de confusión para muchos emprendedores, es un factor de proceso de satisfacción para nuestra consultora.</p>
     </div>
     <div className="content-inicio-p-sub-line-all">
     <div className="content-inicio-sub-lin" data-aos="fade-right"
@@ -78,7 +78,7 @@ const SectionInicio = () => {
       <Subtitleh2 text={"De la Idea al Impacto"}/>
       <MiniLineSepar/>
     </div>
-    <p className="p-textoEstandar p-padding-inicio-text" data-aos="fade-up">A la hora de materializar una idea en un proyecto, un proyecto en un negocio, y un negocio en una empresa que contribuirá a la sociedad y generara puestos de trabajo, cumpliendo un rol social fundamental en el desarrollo económico local, el empresario puede verse abrumado por una variedad de aspectos legales, contractuales y legislativos que sienta que amenacen su emprendimiento. Por eso debe contar con todo el conocimiento que nuestros profesionales de diversas ramas del conocimiento pueden brindar a través de la facilidad y comodidad que brindan las nuevas tecnologías en comunicaciones que se consolidaron en nuestro país durante la pandemia.</p>
+    <p className="p-textoEstandar p-padding-inicio-text" data-aos="fade-up">A la hora de materializar una idea en un proyecto, un proyecto en un negocio, y un negocio en una empresa que contribuirá a la sociedad y generará puestos de trabajo, cumpliendo un rol social fundamental en el desarrollo económico local, el empresario puede verse abrumado por una variedad de aspectos legales, contractuales y legislativos que amenacen su emprendimiento. Por eso debe contar con toda la información que nuestros profesionales de diversas ramas del conocimiento pueden brindar a través de la facilidad y comodidad que brindan las nuevas tecnologías en comunicaciones que se consolidaron en nuestro país durante la pandemia.</p>
     </div>
     <div className="content-inicio-p-sub-line-all">
     <div className="content-inicio-sub-lin" data-aos="fade-right"
@@ -86,7 +86,7 @@ const SectionInicio = () => {
       <Subtitleh2 text={"Delegando para Enfocarse"}/>
       <MiniLineSepar/>
     </div>
-    <p className="p-textoEstandar p-padding-inicio-text" data-aos="fade-up">Si aun debidamente asesorado el emprendedor considera que debe enfocarse exclusivamente a su vocación, podrá dejar en nuestras manos la gestión relativa a la formalización jurídica de su empresa, esto es, la constitución legal de su proyecto en una sociedad registrada, la habilitación comercial de inmuebles, la formalización y seguimiento de contratos civiles y comerciales, la transferencia de fondos de comercio y la gestión de las diligencias que los órganos administrativos de control requieren.</p>
+    <p className="p-textoEstandar p-padding-inicio-text" data-aos="fade-up">Si aun debidamente asesorado el emprendedor considera que debe enfocarse exclusivamente a su vocación, podrá dejar en nuestras manos la gestión relativa a la formalización jurídica de su empresa, esto es, la constitución legal de su proyecto en una sociedad registrada, la habilitación comercial de inmuebles, la confección y seguimiento de contratos civiles y comerciales, la transferencia de fondos de comercio y la gestión de las diligencias que los órganos administrativos de control requieren.</p>
     </div>
     <div className="content-inicio-p-sub-line-all">
     <div className="content-inicio-sub-lin" data-aos="fade-right">
@@ -165,6 +165,8 @@ const SectionInicio = () => {
       <CardServicios titulo={"Locación Inmobiliaria"} img="Gestion/contratoinmobiliaria.jpg"/></Link>
       <Link className='link-articuloCard' to={`/gestion/fondos-comercio`} onClick={scrollToTop}>
       <CardServicios titulo={"Fondos de Comercio"} img="Gestion/fondocomercio.webp"/></Link>
+      <Link className="link-articuloCard" to={`/gestion/registro-marca-patentes`} onClick={scrollToTop}>
+    <CardServicios titulo={"Registro Marca y Patente"} img="Gestion/marcaypatente.webp"></CardServicios></Link>
       </div>
       <div className='group-Card'>
       <Link className='link-articuloCard' to={`/gestion/habilitaciones`} onClick={scrollToTop}>

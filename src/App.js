@@ -38,6 +38,7 @@ import WhatsappAccesor from './components/WhatsappAccesor/WhatsappAccesor';
 import PlanificacionDelTransporte from './components/SectionsAreas/SectionAsesoria/PlanificacionDelTransporte/PlanificacionDelTransporte';
 import Incoterms from './components/SectionsAreas/SectionAsesoria/Incoterms/Incoterms';
 import InsolvenciaPatrimonial from './components/SectionsAreas/SectionGestion/InsolvenciaPatrimonial/InsolvenciaPatrimonial';
+import MarcaPatente from './components/SectionsAreas/SectionGestion/MarcaPatente/MarcaPatente';
 
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
     <Route path='/asesoria-legal/Incoterms' element={<Incoterms/>}/>
 
 
+    <Route path='/gestion/registro-marca-patentes' element={<MarcaPatente/>}/>
     <Route path='/gestion/constitucion-societaria' element={<ConstitucionSocietaria/>}/>
     <Route path='/gestion/contratos-locacion-obra' element={<ContratoLocObra/>}/>
     <Route path='/gestion/contratos-locacion-servicios' element={<ContratoLocServicios/>}/>

@@ -21,11 +21,11 @@ const SectionAsesoria = () => {
       <LineSepar/>
       </div>
         <div className="section-articulos">
-          <Subtitleh3 text={"Empoderando el Éxito Empresarial: El Rol del Conocimiento y Asesoramiento Legal en PYMEs​"}/>
-      <p>“El conocimiento es poder” fue una frase inmortalizada por el filósofo Francis Bacon entre 1561 y 1626 y es uno de los conceptos fundamentales que sostiene WL Consultora. Efectivamente, el conocimiento es el pilar fundamental de cualquier emprendimiento que pretenda desarrollarse con éxito y dejar su marca personal.</p>
+          <Subtitleh3 text={"Consolidando el éxito empresarial: el rol del conocimiento y asesoramiento legal en PYMES​"}/>
+      <p>El conocimiento es poder” fue una frase inmortalizada por el filósofo Francis Bacon y es uno de los conceptos fundamentales que sostiene WL Consultora. Efectivamente, el conocimiento es el pilar fundamental de cualquier emprendimiento que pretenda desarrollarse con éxito y dejar su marca personal.</p>
       <p>Las pequeñas y medianas empresas deben necesariamente contar con toda la información legal sobre los derechos y las obligaciones -y oportunidades- que la legislación local expone al empresariado emergente.</p>
       <p>Munido con toda la información que necesita saber para anticipar cualquier contratiempo que el marco legal vigente pueda prever en el exitoso desenvolvimiento de su actividad, el emprendedor tomara las decisiones correctas que llevaran su visión a buen puerto.</p>
-      <p>A su vez, él mismo será asesorado sobre las tendencias jurídicas y legislativas relativas a las pequeñas y medianas empresas que orientaran la aplicación del derecho comercial tanto en el mercado local como en el mercado internacional.</p>
+      <p>A su vez, será asesorado sobre las tendencias jurídicas y legislativas relativas a las pequeñas y medianas empresas que orientaran la aplicación del derecho comercial tanto en el mercado local como en el mercado internacional.</p>
         </div>
       </section>
  <section className='Seccion-CardsServicios'>
