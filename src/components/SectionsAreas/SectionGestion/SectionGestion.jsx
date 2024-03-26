@@ -34,7 +34,7 @@ function SectionGestion() {
     <Link className='link-articuloCard' to={`/gestion/fondos-comercio`} onClick={scrollToTop}>
     <CardServicios titulo={"Fondos de Comercio"} img="Gestion/fondocomercio.webp"/></Link>
     <Link className="link-articuloCard" to={`/gestion/registro-marca-patentes`} onClick={scrollToTop}>
-    <CardServicios titulo={"Registro Marca y Patente"} img="Gestion/marcaypatente.webp"></CardServicios></Link>
+    <CardServicios titulo={"Registros de Marcas y Patentes"} img="Gestion/marcaypatente.webp"></CardServicios></Link>
     </div>
     <div className='group-Card'>
     <Link className='link-articuloCard' to={`/gestion/habilitaciones`} onClick={scrollToTop}>
