@@ -11,7 +11,7 @@ function Habilitaciones() {
   ];
   return (
     <>
-      <Gestion titulo={"Habilitaciones"} textoServicio={textos} subtitulo={"Normativa vigente sobre la Registración de tu empresa."}/>
+      <Gestion titulo={"Habilitaciones"} textoServicio={textos} subtitulo={"Normativa vigente sobre la registración de tu empresa."}/>
     </>
   );
 }

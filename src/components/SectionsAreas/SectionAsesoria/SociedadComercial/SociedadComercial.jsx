@@ -10,7 +10,7 @@ function SociedadComercial() {
   ];
   return (
     <>
-      <Asesorias titulo="SOCIEDAD COMERCIAL" textoServicio={textos}/>
+      <Asesorias titulo="SOCIEDADES COMERCIALES" textoServicio={textos}/>
     </>
   );
 }

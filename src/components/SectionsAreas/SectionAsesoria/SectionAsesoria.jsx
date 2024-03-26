@@ -31,7 +31,7 @@ const SectionAsesoria = () => {
  <section className='Seccion-CardsServicios'>
     <div className='group-Card'>
     <Link className='link-articuloCard'  to={`/asesoria-legal/sociedad-comercial`} onClick={scrollToTop}>
-    <CardServicios titulo={"Sociedad Comercial"} img="Asesoramiento/sociedadComercial.jpg"/></Link>
+    <CardServicios titulo={"Sociedades Comerciales"} img="Asesoramiento/sociedadComercial.jpg"/></Link>
     <Link className='link-articuloCard'  to={`/asesoria-legal/relaciones-de-consumo`} onClick={scrollToTop}>
     <CardServicios titulo={"Relaciones de Consumo"} img="Asesoramiento/relacionesConsumo.webp"/></Link>
     <Link className='link-articuloCard'  to={`/asesoria-legal/contratos-de-adhesion`} onClick={scrollToTop}>

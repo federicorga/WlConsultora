@@ -22,9 +22,9 @@ function SectionMiembros() {
 
          
               <div className='div-ContentAll-Miembros'>
-              <Member nombre={"Wilhelm Leifermann "} titulo={"Fundador de WL Consultora. Abogado y Magíster en Política y Planificación del Transporte. Especializado en asesoramiento bursátil y asesoramiento legal a pequeñas y medianas empresas. A lo largo de su carrera profesional se ha desempeñado como apoderado de empresas privadas concesionarias de servicios públicos y consultor de emprendimientos comerciales. Complementa su formación profesional con el dominio de los idiomas inglés y portugués."} imgurl={"Willy.png"}/>
+              <Member nombre={"Wilhelm Leifermann "} titulo={"undador de WL Consultora. Abogado y Magíster en Política y Planificación del Transporte. Especializado en asesoramiento legal a pequeñas y medianas empresas. A lo largo de su carrera profesional se ha desempeñado como apoderado de empresas privadas concesionarias de servicios públicos y consultor de emprendimientos comerciales. Complementa su formación profesional con el dominio de los idiomas inglés y portugués."} imgurl={"Willy.png"}/>
               <Member nombre={"Lucas Peña"} titulo={"Licenciado en Higiene y Seguridad Laboral - Medioambiente. A lo largo de su carrera ha auditado la ejecución de proyectos en carácter de Responsable de Área en obras publicas tanto para el Estado Nacional como para la Provincia de Buenos Aires. A su vez se ha desempeñado como asesor particular para emprendimientos comerciales."} imgurl={"LucasPena.png"}/>
-              <Member nombre={"Gabriel Suarez Van Ker Koven"} titulo={"Se hizo lo que se pudo con el photoshop"} imgurl={"GabrielSuarez.png"}/>
+              <Member nombre={"Gabriel Suarez Van Ker Koven"} titulo={"Contador publicado especializado en liquidación de sueldos y cargas sociales. A lo largo de su carrera se ha desempeñado como asesor impositivo y auditor interno de empresas. Su experiencia se consolida en el desarrollo de su profesión tanto como consultor independiente como asesor gerencial. Su formación profesional abarca aspectos previsionales y de recursos humanos, complementándose con el dominio del idioma inglés"} imgurl={"GabrielSuarez.png"}/>
               </div>
           <ContactoForm/>
         </div>

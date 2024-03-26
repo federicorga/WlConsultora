@@ -25,23 +25,23 @@ function SectionContact() {
         </div>
         <div className='div-elementor-ico-list-items-contact'>
           
-        <ul class="elementor-icon-list-items">
-          <li class="elementor-icon-list-item">
+        <ul className="elementor-icon-list-items">
+          <li className="elementor-icon-list-item">
           <Link to={`tel:+541536167336`} target="_blank">
        
           <IcoLlamada width='30' height='30'/>
-          <span class="elementor-icon-list-text">Teléfono: +54 9 11 5314-0359</span> 
+          <span className="elementor-icon-list-text">Teléfono: +54 9 11 5314-0359</span> 
           </Link></li>
-          <li class="elementor-icon-list-item"> 
+          <li className="elementor-icon-list-item"> 
           <Link to={`mailto:wlconsultoraintegral@gmail.com`} target="_blank">
           <IcoEmail width='30' height='30'/>
-          <span class="elementor-icon-list-text">Email: wlconsultoraintegral@gmail.com</span> 
+          <span className="elementor-icon-list-text">Email: wlconsultoraintegral@gmail.com</span> 
           </Link>
           </li>
-          <li class="elementor-icon-list-item"> 
+          <li className="elementor-icon-list-item"> 
           <Link to={`https://wa.me/${telefonoWhatsapp}/?text=${textoPredeterminadoWhatsapp}`}target="_blank">
         <IcoWhatsapp width='30' height='30'/>
-         <span class="elementor-icon-list-text">Whatsapp</span></Link></li>
+         <span className="elementor-icon-list-text">Whatsapp</span></Link></li>
         </ul>
         
       </div>

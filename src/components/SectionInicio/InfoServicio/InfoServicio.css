@@ -48,9 +48,14 @@
     padding-top: 0px;
 }
 
+
+
 .infoservicio-item p{
     font-family: var(--ff-text-p-legal);
     color: var(--clr-color-subtitle);
     padding-left: 10px;
     font-weight: 600;
+}
+.padmercado{
+    padding-left: 1px !important;
 }

@@ -31,7 +31,7 @@ function InfoServicio() {
         <Subtitleh3 text={"Pagá de la forma más simple"}/>
         <div className="grupoElementos-InfoServicio">
         <div className="infoservicio-item padg"><IcoDinero width='25' height='25'/><p>Efectivo</p></div>
-        <div className="infoservicio-item padg"><IcoMercadoLibre width='35' height='35'/><p>Mercado Pago</p></div>
+        <div className="infoservicio-item padg "><IcoMercadoLibre width='35' height='35'/><p className='padmercado'>Mercado Pago</p></div>
         <div className="infoservicio-item padg"><IcoCard width='25' height='25'/><p>Tarjeta de Credito</p></div>
         </div>
         </div>
